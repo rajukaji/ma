@@ -1,0 +1,124 @@
+body, html{
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	overflow-x: hidden;
+/*	background-color: #5c61e2;*/
+	font-size: 16px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.top{
+/*	width: 100%;*/
+	/*height: 50px;*/
+	font-size: 2rem;
+	background-color: #5c61e2;
+	padding: 1em;
+	margin: 0;
+	overflow-x: hidden;
+	text-align: center;
+
+}
+
+.logo1{
+	float: left;
+	cursor: pointer;
+	color: white;
+
+}
+
+.txt{
+	color: white;
+	font-family: courier;
+	font-size: 1em;
+}
+
+.logo2{
+	/*text-align: right;*/
+	float: right;
+	right: 0;
+	cursor: pointer;
+	color: white;
+
+}
+
+.contact{
+/*	text-align: center;*/
+	font-size: 8px;
+	color:#DC143C;
+}
+
+.left{
+	/*text-align: left;*/
+	color:#DC143C;
+	font-size: 8px;
+}
+
+.left1{
+	text-decoration: none;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+.right{
+	text-align: right;
+	color:#DC143C;
+	text-decoration: none;
+	font-size: 8px;
+}
+
+.right1{
+	text-decoration: none;
+}
+
+.socialm{
+	text-decoration: none;
+	color: #DC143C;
+	cursor: pointer;
+}
+
+.things{
+	text-align: center;
+}
+
+.symbol{
+	position: absolute;
+	z-index: -1;
+	font-size: 20rem;
+	left: 40%;
+	color: #5c61e2;
+	top: 40%;
+}
+
+.text1{
+	/*text-align: center;*/
+	font-size: 7rem;
+	margin: 5rem;
+}
+
+.txt2{
+	text-decoration: none;
+	cursor: pointer;
+	transition: width 1s, height 1s;
+	color:#DC143C;
+}
+
+.txt2:hover{
+	width: 10rem;
+	height: 10rem;
+
+}
+
+.text1:hover{
+	transition-duration: 0.5s;
+	box-shadow: -1px 2px 140px 104px rgba(92,97,226,1);
+	background-color: #003893;
+	border-radius: 50px;
+	opacity: 0.8;
+}
