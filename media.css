@@ -1,0 +1,53 @@
+@media only screen and (max-width: 704px and min-width: 930px) {
+  body{
+    max-width: 900px;
+    width: 100%;
+  }
+
+  .top{
+  	width: 100%;
+  	overflow: auto;
+  }
+
+  .symbol{
+  	right: 0;
+  }
+
+  	.text1{
+		text-align: left;
+		font-size: 4rem;
+	}
+}
+
+@media only screen and (max-width: 703px) {
+	.right{
+		text-align: left;
+	}
+
+	.text1{
+	text-align: left;
+	font-size: 3rem;
+	}
+
+}
+
+@media only screen and (max-width: 585px) {
+	body, html{
+		min-width: 430px;
+		overflow: auto;
+	}
+
+	.top{
+		min-width: 500px;
+	}
+
+	.text1{
+		text-align: left;
+		font-size: 3rem;
+
+	}
+
+		.symbol{
+		left: 0;
+	}
+}

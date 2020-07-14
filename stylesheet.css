@@ -1,8 +1,9 @@
-body, html{
+body{
 	width: 100%;
 	max-width: 100%;
 	margin: 0;
 	overflow-x: hidden;
+	overflow-y: hidden;
 /*	background-color: #5c61e2;*/
 	font-size: 16px;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -16,7 +17,7 @@ body, html{
 	background-color: #5c61e2;
 	padding: 1em;
 	margin: 0;
-	overflow-x: hidden;
+/*	overflow-x: hidden;*/
 	text-align: center;
 
 }
@@ -88,18 +89,18 @@ body, html{
 }
 
 .symbol{
-	position: absolute;
+	position: fixed;
 	z-index: -1;
 	font-size: 20rem;
 	left: 40%;
 	color: #5c61e2;
-	top: 40%;
+	top: 30%;
 }
 
 .text1{
 	/*text-align: center;*/
 	font-size: 7rem;
-	margin: 5rem;
+	margin: 3rem;
 }
 
 .txt2{
