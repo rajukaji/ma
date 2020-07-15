@@ -83,7 +83,7 @@ body{
 
 .right1{
 	text-decoration: none;
-	transition: width: 0.5s;
+	transition: width 0.5s;
 }
 
 .right1:hover{
@@ -100,7 +100,6 @@ body{
 }
 
 .socialm:hover{
-	transition-duration: 0.5s;
 	color: #003893;
 	width: 1em;
 }
