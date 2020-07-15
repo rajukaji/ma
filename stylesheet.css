@@ -89,7 +89,7 @@ body{
 }
 
 .symbol{
-	position: fixed;
+	position: absolute;
 	z-index: -1;
 	font-size: 20rem;
 	left: 40%;
