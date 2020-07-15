@@ -58,6 +58,13 @@ body{
 
 .left1{
 	text-decoration: none;
+	transition: width 0.5s;
+}
+
+.left1:hover{
+	transition-duration: 0.5s;
+	color: #DC143C;
+	width: 1em;
 }
 
 .container{
@@ -76,12 +83,26 @@ body{
 
 .right1{
 	text-decoration: none;
+	transition: width: 0.5s;
+}
+
+.right1:hover{
+	transition-duration: 0.5s;
+	color: #DC143C;
+	width: 1em;
 }
 
 .socialm{
 	text-decoration: none;
 	color: #DC143C;
 	cursor: pointer;
+	transition: width 0.5s;
+}
+
+.socialm:hover{
+	transition-duration: 0.5s;
+	color: #003893;
+	width: 1em;
 }
 
 .things{
