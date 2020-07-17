@@ -94,15 +94,15 @@ body{
 
 .socialm{
 	text-decoration: none;
-	color: #DC143C;
+/* 	color: #DC143C; */
 	cursor: pointer;
-	transition: width 0.5s;
+/* 	transition: width 0.5s; */
 }
 
-.socialm:hover{
+/* .socialm:hover{
 	color: #003893;
 	width: 1em;
-}
+} */
 
 .things{
 	text-align: center;
